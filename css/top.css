@@ -1,0 +1,56 @@
+.content {}
+
+.content__top {
+  width: 100%;
+  height: 500px;
+  background-color: #6e6e6e;
+}
+
+.content__osinagaki {
+  width: 100%;
+  height: 700px;
+  background-color: #ababab;
+}
+
+.botton--fixed {
+  position: fixed;
+}
+
+#buttonArea {
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  width: 50px;
+  align-items: center;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: 1s;
+}
+
+.button__shop-list {
+  padding: 30px 0;
+  margin-bottom: 30px;
+  background-color: #8C2D29;
+  /* border: 1px solid #dcdcdc; */
+}
+.button__shop-list p {
+  color: #ffffff;
+  margin: 0 auto;
+  writing-mode: vertical-rl;
+}
+
+.button__scroll {
+  height: 50px;
+  background-color: #8B8B8B;
+  color: #dcdcdc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0 0 5px #383838 */
+}
+
+.button__scroll p{
+  color: #dcdcdc;
+  margin: auto 0;
+
+}

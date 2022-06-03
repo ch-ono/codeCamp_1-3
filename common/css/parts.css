@@ -1,0 +1,29 @@
+ .header_white  {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.content {
+
+}
+
+.content__title {
+  width: 100%;
+  background-color: #e9e9e9;
+  padding: 70px 0 70px 0;
+  align-items: center;
+}
+.content__title-first {
+  padding: 140px 0 70px 0;
+}
+
+.content__title p {
+  color: #3C3C3C;
+  font-size: 3rem;
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+}
+
+.content__title p:first-letter {
+  color: #8C2E2A;
+}
