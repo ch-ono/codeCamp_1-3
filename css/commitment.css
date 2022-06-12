@@ -1,0 +1,70 @@
+.content__title p{
+  margin-bottom: 40px;
+}
+
+.content__main-copy {
+  margin: 60px 0 90px 0;
+}
+
+.water__main-copy {
+  width: 800px;
+  height: 390px;
+  margin: 0 auto;
+  padding : 30px 30px;
+  background-image: url("../images/water-img.png");
+  background-repeat: cover;
+}
+
+.hatake__main-copy {
+  width: 800px;
+  height: 390px;
+  margin: 0 auto;
+  padding : 30px 30px;
+  background-image: url("../images/hatake-img.png");
+  background-repeat: cover;
+}
+
+.main-copy__inner {
+  padding: 30px 20px 30px 30px;
+  background-color: #EEEEEE;
+  writing-mode: vertical-rl;
+  width: min-content;
+  font-size: 1.8rem;
+  letter-spacing: 0.25rem;
+  border-right: 10px solid #A7000D;
+}
+
+.inner-right {
+  margin: 0 0 0 auto;
+}
+
+.main-copy__inner--title {
+  color: #A7000D;
+  margin-left: 10px;
+  font-size: 3rem;
+}
+
+.content__commitment {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 30px 50px 30px;
+  margin-bottom: 100px;
+}
+
+.content__commitment img{
+  height: 150px;
+}
+
+.content__commitment-text {
+  margin: 30px 30px 0 50px;
+  height: 280px;
+  writing-mode: vertical-rl;
+  font-size: 1.7rem;
+  line-height: 3.6rem;
+}
+
+.content__commitment .content__title {
+  padding: 0 0;
+  margin: 0 0;
+}

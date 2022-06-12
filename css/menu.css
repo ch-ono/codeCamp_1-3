@@ -4,15 +4,67 @@
 
 .content__menu_soba {
   width: 800px;
-  height: 500px;
-  margin: 100px auto;
-  background-color: rgb(206, 210, 214);
+  height: 400px;
+  margin: 150px auto 140px auto;
+}
+
+.content__flex {
+  display: flex;
+}
+
+.content__menu_soba img{ 
+  width: 500px;
+  height: 329px;
+  margin: -30px 0 0 60px;
+}
+
+.content__menu_drink img{ 
+  width: 413px;
+  height: 251px;
+  margin: -40px 0 0 0;
+}
+
+.content__menu .content__title {
+  width: min-content;
+  padding: 40px 0;
+}
+
+.menu_info {
+  margin: 70px 20px 0 60px;
+  writing-mode: vertical-rl;
+}
+
+.content__menu_soba .menu__caption {
+  margin: 30px 0 20px 60px;
+}
+
+.content__menu_drink .menu__caption {
+  margin-bottom: 60px;
+}
+
+.content__img {
+  margin-left: 45px;
+}
+
+.menu__title {
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.menu__kind {
+  font-size: 1rem;
+  margin: 30px 0 10px 0;
+  color: #A7000D;
+}
+
+.menu__detail {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 .content__menu_drink {
   width: 800px;
-  height: 500px;
-  margin: 100px auto;
-  background-color: rgb(206, 210, 214);
+  margin: 140px auto;
+  padding-left: 50px;
 }
 

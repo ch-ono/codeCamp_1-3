@@ -458,7 +458,7 @@ th {
 /* 各種要素の初期設定
 -------------------------------------*/
 html {
-  color: #333333;
+  color: #3D3D3D;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   font-size: 62.5%;
   line-height: 1.6;
@@ -502,7 +502,7 @@ body {
 .header__bar-inner {
   height: 100%;
   align-items: center;
-  margin: 0 50px;
+  margin: 0 100px;
   display: flex;
   gap: 50px;
   justify-content: space-between;
@@ -555,7 +555,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 50px 0;
+  padding: 60px 0;
   background: #8B8B8B;
   color: #7c7c7c;
 }
@@ -568,4 +568,12 @@ body {
   margin: 0 auto;
   color: #ffffff;
   text-align: center;
+}
+
+.footer__access {
+  margin: 20px;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
 }
