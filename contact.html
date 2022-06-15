@@ -3,10 +3,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
   <title>ほげら屋</title>
-  <meta name="Description" content="" />
-  <meta name="Keywords" content="" />
   <link href="/common/css/base.css" rel="stylesheet" type="text/css" media="all" />
   <link href="/common/css/parts.css" rel="stylesheet" type="text/css" media="all" />
   <link href="/css/contact.css" rel="stylesheet" type="text/css" media="all" />
@@ -16,43 +13,54 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <div id="wrap">
     <div id="wrapInner">
-      <header class="header_white" id="headerArea">
-        <div class="header__bar">
-          <div class="hearder__logo">
-            <a href="/top.html">
-              <img src="/images/logo.png" alt="" id="header__logo-img">
-            </a>
-
-          </div>
+      <header id="headerArea">
+        <div class="header__bar header_white">
+          <a href="/top.html" class="hearder__logo">
+            <img src="/images/logo.png" alt="ほげら屋ロゴ">
+          </a>
           <div class="hearder__menu">
             <a href="/commitment.html">わたしたちのこだわり</a>
             <a href="/menu.html">おしながき</a>
             <a href="/shop-list.html">店舗情報</a>
             <a href="#">お知らせ</a>
             <a href="/contact.html">お問い合わせ</a>
-          </div><!-- / .hearder__bottom-inner -->
+          </div>
         </div>
-      </header><!-- / #headerArea -->
+      </header>
       <main id="mainArea">
         <div id="contentArea">
-          <div class="content content__title">
-            <p>お問い合わせ</p>
+          <div class="content content__title-first content__background--paper">
+            <h2 class="content__title">お問い合わせ</h2>
           </div>
 
-          <div class="content content__contact">
-           
-          </div>
-
+          <form action="#" method="get" class="content content__contact">
+            <div class="contact__form-item">
+              <label for="name">お名前(必須)</label><br>
+              <input class="contact__form-item--input" type="text" name="name" id="name" required>
+            </div>
+            <div class="contact__form-item">
+              <label for="email">返信先メールアドレス(必須)</label><br>
+              <input class="contact__form-item--input" type="email" name="email" id="email" required>
+            </div>
+            <div class="contact__form-item">
+              <label for="inquiry">お問い合わせ内容(必須)</label><br>
+              <textarea class="contact__form-item--input" name="inquiry" id="inquiry" required></textarea>
+            </div>
+            <input class="contact__form-submit" type="submit" value="確認する">
+          </form>
         </div>
       </main><!-- / #mainArea -->
       <footer id="footerArea">
         <div class="footer__item">
-          <img src="/images/logo_white.png" alt="" id=""><br>
-          aaaaa<br>
-          aaaaa<br>
-          aaaaa<br>
+          <img src="/images/logo_white.png" alt="ほげら屋ロゴ">
+          <div class="footer__access">
+            本店<br>
+            〒400-0031 山梨県甲府市丸の内26丁目4<br>
+            055-○○○-○○○○<br>
+            2022 CodeCamp Inc. All rights reserved.
+          </div>
         </div>
-      </footer><!-- / #footerArea -->
+      </footer>
     </div><!-- / #wrapInner -->
   </div><!-- / #wrap -->
 </body>
