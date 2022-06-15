@@ -26,4 +26,8 @@ window.onload = function () {
     }
   });
 
+  document.getElementById("button__scroll").onclick = function() {
+    window.scroll({top: 0, behavior: 'smooth'});
+  };
+
 }
