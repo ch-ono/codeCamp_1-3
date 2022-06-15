@@ -8,23 +8,18 @@
 }
 
 .content__title {
-  width: 100%;
-  padding: 100px 0 70px 0;
-  align-items: center;
-}
-.content__title-first {
-  padding: 170px 0 70px 0;
-}
-
-.content__title p {
+  margin: 0 auto;
   color: #3C3C3C;
   font-size: 3rem;
   writing-mode: vertical-rl;
-  margin: 0 auto;
+  letter-spacing: 0.2rem;
+}
+.content__title-first {
+  padding: 170px 0 100px 0;
 }
 
-.content__title p:first-letter {
-  color: #A7000D;
+.content__title:first-letter {
+  color: #8A231C;
 }
 
 .content__background--paper {

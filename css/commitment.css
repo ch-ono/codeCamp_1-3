@@ -12,7 +12,7 @@
   margin: 0 auto;
   padding : 30px 30px;
   background-image: url("../images/water-img.png");
-  background-repeat: cover;
+  background-size: cover;
 }
 
 .hatake__main-copy {
@@ -21,7 +21,7 @@
   margin: 0 auto;
   padding : 30px 30px;
   background-image: url("../images/hatake-img.png");
-  background-repeat: cover;
+  background-size: cover;
 }
 
 .main-copy__inner {
@@ -31,7 +31,7 @@
   width: min-content;
   font-size: 1.8rem;
   letter-spacing: 0.25rem;
-  border-right: 10px solid #A7000D;
+  border-right: 10px solid #8C2D29;
 }
 
 .inner-right {
@@ -39,7 +39,7 @@
 }
 
 .main-copy__inner--title {
-  color: #A7000D;
+  color: #8C2D29;
   margin-left: 10px;
   font-size: 3rem;
 }
@@ -48,16 +48,16 @@
   width: 800px;
   display: flex;
   margin: 0 auto;
-  padding: 40px 30px 50px 30px;
+  padding: 40px 50px 50px 30px;
   margin-bottom: 100px;
 }
 
 .content__commitment img{
-  height: 150px;
+  height: 160px;
 }
 
 .content__commitment-text {
-  margin: 30px 30px 0 50px;
+  margin: 30px 30px 0 30px;
   height: 280px;
   writing-mode: vertical-rl;
   font-size: 1.7rem;
@@ -67,4 +67,14 @@
 .content__commitment .content__title {
   padding: 0 0;
   margin: 0 0;
+}
+
+.content__commitment--img {
+  margin-top: 60px;
+  
+}
+
+.img-caption {
+  padding: 7px;
+  font-size: 0.7rem;
 }

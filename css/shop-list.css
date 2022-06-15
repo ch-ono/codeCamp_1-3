@@ -1,0 +1,57 @@
+.content__title-first {
+  margin-bottom: 90px;
+}
+
+.content__shop-list {
+  display: flex;
+  width: 800px;
+  margin: 0 auto 60px auto;
+  padding: 20px 60px 18px 50px;
+  justify-content: space-between;
+}
+
+.shop-list--item--address, .content__commitment--caption {
+  width: 290px;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  color: #7F7F7F;
+}
+
+.shop-list--item {
+  display: flex;
+  padding: 15px 0;
+}
+
+.shop-list--item--map {
+  width: 300px;
+  height: 200px;
+  border: 0;
+}
+
+.content__shop-list .content__title {
+  padding: 18px 0;
+  width: max-content;
+}
+
+.shop-list--item--shop-name, .content__commitment--title{
+  margin: 5px 0 0 -2px;
+  color: #3C3C3C;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.content__commitment {
+  display: flex;
+  width: 800px;
+  margin: 90px auto 100px auto;
+}
+
+.content__commitment--title {
+  padding-bottom: 10px;
+}
+
+.content__commitment--caption {
+  width: max-content;
+  padding: 20px 0 0 40px;
+  line-height: 2.3rem;
+}
