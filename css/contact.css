@@ -1,15 +1,20 @@
 .content__contact {
   width: 700px;
-  margin: 100px auto 90px auto;
+  margin: 100px auto 100px auto;
+  padding-left: 10px;
+}
+
+.content__title-first {
+  padding: 170px 0 63px 0;
 }
 
 .contact__form-item {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .contact__form-item--input {
-  margin-top: 2px;
-  padding: 3px 10px;
+  margin-top: 5px;
+  padding: 2px 10px;
   border: 1px solid rgb(199, 199, 199);
 }
 
@@ -25,11 +30,15 @@
 
 .contact__form-submit {
   width: max-content;
-  padding: 12px 45px;
+  padding: 13px 45px;
   background-color: #F6F6F6;
   border: 1px solid #757575;
 }
 
 .contact__form-submit:hover {
   background-color: #ededed;
+}
+
+label {
+  font-size: 1.3rem;
 }

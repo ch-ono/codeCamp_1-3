@@ -85,7 +85,12 @@
 
 .content__notes {
   width: 800px;
-  margin: 50px auto 90px auto;
+  margin: 50px auto 95px auto;
   font-size: 1.2rem;
   color: #7F7F7F;
+}
+
+.intervel {
+  width: 10px;
+  height: 10px;
 }
